@@ -1,0 +1,43 @@
+{
+  "name": "SwapSkill",
+  "short_name": "SwapSkill",
+  "description": "Swap skills with people around you. Teach what you know, learn what you love.",
+  "start_url": "/SwapSkills.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#060608",
+  "theme_color": "#060608",
+  "categories": ["education", "social", "productivity"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Explore Skills",
+      "short_name": "Explore",
+      "description": "Browse people and skills to swap",
+      "url": "/SwapSkills.html#explore",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Swaps",
+      "short_name": "Swaps",
+      "description": "View your active skill swaps",
+      "url": "/SwapSkills.html#swaps",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
